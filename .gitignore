@@ -4,3 +4,7 @@
 !images/**
 !.gitignore
 images/CREDITS.md
+!style.css
+!site.js
+!work.html
+!contacts.html

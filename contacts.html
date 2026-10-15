@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контакты — Виталий, B2B-продажи, Могилёв</title>
+<meta name="description" content="Как связаться с Виталием: Telegram.">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav" aria-label="Основное меню">
+  <div class="wrap">
+    <a class="brand" href="index.html">Виталий</a>
+    <div class="menu" id="menu">
+      <a href="index.html">Главная</a>
+      <a href="work.html">Чем занимаюсь</a>
+      <a href="contacts.html" aria-current="page">Контакты</a>
+    </div>
+    <button class="icon-btn" id="theme-toggle" type="button" aria-pressed="false" aria-label="Включить тёмную тему">
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+    <button class="icon-btn" id="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Меню">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<section id="contacts">
+  <h2>Контакты</h2>
+  <p class="lead" style="margin-bottom:28px">Буду рад знакомству и новым контактам. Напишите — отвечу.</p>
+  <div class="contact-grid" style="grid-template-columns:1fr">
+    <div class="card">
+      <h3>Telegram</h3>
+      <p>Самый быстрый способ связаться.</p>
+      <!-- TODO: подставить ссылку https://t.me/<username> и убрать aria-disabled -->
+      <a class="btn" href="#" aria-disabled="true">Написать в Telegram</a>
+      <p class="hint" style="margin-top:12px">Ссылка появится позже.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  Могилёв · Беларусь
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
